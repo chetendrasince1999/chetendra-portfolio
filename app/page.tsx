@@ -231,68 +231,53 @@ export default function Home() {
       </Reveal>
 
       <Reveal>
-        <section id="projects" className="mx-auto max-w-7xl px-6 py-20">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">Selected Work</p>
-          <h2 className="mt-4 text-4xl font-bold md:text-5xl">Portfolio Projects</h2>
+        <Reveal>
+  <section id="projects" className="mx-auto max-w-7xl px-6 py-20">
+    <p className="text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">
+      Selected Work
+    </p>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
-          <div className="rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-slate-900 to-slate-800 p-8 text-white shadow-2xl">
+    <h2 className="mt-4 text-4xl font-bold md:text-5xl">
+      Portfolio Projects
+    </h2>
 
-  <p className="text-sm text-cyan-300">03</p>
+    <div className="mt-10 grid gap-6 md:grid-cols-1">
+      <div className="rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-slate-900 to-slate-800 p-8 text-white shadow-2xl transition duration-500 hover:-translate-y-2">
+        <p className="text-sm text-cyan-300">01</p>
 
-  <h3 className="mt-6 text-2xl font-bold">
-    InsightFlow – CRM & AML Analytics Dashboard
-  </h3>
+        <h3 className="mt-6 text-2xl font-bold">
+          InsightFlow – CRM & AML Analytics Dashboard
+        </h3>
 
-  <p className="mt-4 text-slate-300">
-    Business Intelligence dashboard built using Next.js, TypeScript,
-    Tailwind CSS and Recharts. Includes CRM monitoring,
-    Revenue Analytics, AML/KYC risk tracking and Customer
-    Success metrics.
-  </p>
+        <p className="mt-4 text-slate-300">
+          Business Intelligence dashboard built using Next.js, TypeScript,
+          Tailwind CSS and Recharts. Includes CRM monitoring, Revenue
+          Analytics, AML/KYC risk tracking and Customer Success metrics.
+        </p>
 
-  <div className="mt-6 flex gap-3 flex-wrap">
+        <div className="mt-6 flex flex-wrap gap-3">
+          <a
+            href="https://insight-flow-gamma-beryl.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-cyan-400 px-4 py-2 text-cyan-300 hover:bg-cyan-500 hover:text-white"
+          >
+            Live Demo
+          </a>
 
-    <a
-      href="https://insight-flow-gamma-beryl.vercel.app/"
-      target="_blank"
-      className="rounded-full border border-cyan-400 px-4 py-2 text-cyan-300 hover:bg-cyan-500 hover:text-white"
-    >
-      Live Demo
-    </a>
-
-    <a
-      href="https://github.com/chetendrasince1999/InsightFlow"
-      target="_blank"
-      className="rounded-full border border-cyan-400 text-cyan-300 px-4 py-2 hover:bg-white hover:text-black"
-    >
-      GitHub
-    </a>
-
-  </div>
-
-</div>
-
-            <Tile>
-              <p className="text-sm text-neutral-500">02</p>
-              <h3 className="mt-6 text-2xl font-bold">InsightX – SaaS Analytics Dashboard</h3>
-              <p className="mt-4 text-neutral-600">
-                SaaS analytics dashboard for monitoring revenue, subscriptions, churn,
-                customer trends and business performance using modern dashboard concepts
-                and dynamic filtering.
-              </p>
-            </Tile>
-
-            <Tile>
-              <p className="text-sm text-neutral-500">03</p>
-              <h3 className="mt-6 text-2xl font-bold">Business Operations Reporting System</h3>
-              <p className="mt-4 text-neutral-600">
-                Excel-based reporting system for sales, inventory, procurement, vendor
-                management, customer communication and financial tracking.
-              </p>
-            </Tile>
-          </div>
-        </section>
+          <a
+            href="https://github.com/chetendrasince1999/InsightFlow"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-cyan-400 px-4 py-2 text-cyan-300 hover:bg-cyan-500 hover:text-white"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Reveal>
       </Reveal>
 
       <Reveal>
