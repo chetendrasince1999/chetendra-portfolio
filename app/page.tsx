@@ -6,7 +6,7 @@ import type { ReactNode } from "react";
 const linkedin = "https://www.linkedin.com/in/chetendra-singh-jadoun-4a347016b";
 const email = "mailto:chetendrasince1999@gmail.com";
 const whatsapp = "https://wa.me/919251231544";
-const github = "#";
+const github = "https://github.com/chetendrasince1999";
 
 function Reveal({ children }: { children: ReactNode }) {
   return (
