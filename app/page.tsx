@@ -242,8 +242,17 @@ export default function Home() {
     </h2>
 
     <div className="mt-10 grid gap-6 md:grid-cols-1">
-      <div className="rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-slate-900 to-slate-800 p-8 text-white shadow-2xl transition duration-500 hover:-translate-y-2">
+      <div className="relative overflow-hidden rounded-3xl border border-cyan-500/40 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 p-8 text-white shadow-2xl transition duration-500 hover:-translate-y-2 before:absolute before:inset-0 before:-z-10 before:rounded-3xl before:bg-cyan-400/30 before:blur-2xl">
         <p className="text-sm text-cyan-300">01</p>
+        <div className="mb-5 flex flex-wrap items-center gap-3">
+  <span className="rounded-full border border-cyan-400/40 bg-cyan-400/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-cyan-300 shadow-lg">
+    🏆 Featured Project
+  </span>
+
+  <span className="rounded-full border border-yellow-400/40 bg-yellow-400/10 px-4 py-2 text-xs font-bold text-yellow-300">
+    ⭐ Recruiter Ready
+  </span>
+</div>
 
         <h3 className="mt-6 text-2xl font-bold">
           InsightFlow – CRM & AML Analytics Dashboard
