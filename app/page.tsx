@@ -236,15 +236,42 @@ export default function Home() {
           <h2 className="mt-4 text-4xl font-bold md:text-5xl">Portfolio Projects</h2>
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
-            <div className="rounded-3xl bg-black p-8 text-white transition duration-500 hover:-translate-y-3 hover:rotate-1 hover:shadow-[0_35px_90px_rgba(0,0,0,0.25)]">
-              <p className="text-sm text-neutral-400">01</p>
-              <h3 className="mt-6 text-2xl font-bold">CRM Sales & AML Compliance Dashboard</h3>
-              <p className="mt-4 text-neutral-300">
-                Unified dashboard combining CRM sales performance and AML compliance monitoring.
-                Tracked sales growth, lead conversion, customer retention, suspicious transactions,
-                risk categorization and business risk indicators.
-              </p>
-            </div>
+          <div className="rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-slate-900 to-slate-800 p-8 text-white shadow-2xl">
+
+  <p className="text-sm text-cyan-300">03</p>
+
+  <h3 className="mt-6 text-2xl font-bold">
+    InsightFlow – CRM & AML Analytics Dashboard
+  </h3>
+
+  <p className="mt-4 text-slate-300">
+    Business Intelligence dashboard built using Next.js, TypeScript,
+    Tailwind CSS and Recharts. Includes CRM monitoring,
+    Revenue Analytics, AML/KYC risk tracking and Customer
+    Success metrics.
+  </p>
+
+  <div className="mt-6 flex gap-3 flex-wrap">
+
+    <a
+      href="https://insight-flow-gamma-beryl.vercel.app/"
+      target="_blank"
+      className="rounded-full border border-cyan-400 px-4 py-2 text-cyan-300 hover:bg-cyan-500 hover:text-white"
+    >
+      Live Demo
+    </a>
+
+    <a
+      href="https://github.com/chetendrasince1999/InsightFlow"
+      target="_blank"
+      className="rounded-full border border-cyan-400 text-cyan-300 px-4 py-2 hover:bg-white hover:text-black"
+    >
+      GitHub
+    </a>
+
+  </div>
+
+</div>
 
             <Tile>
               <p className="text-sm text-neutral-500">02</p>
