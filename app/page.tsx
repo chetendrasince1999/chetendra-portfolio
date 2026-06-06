@@ -316,7 +316,7 @@ export default function Home() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://nexus360-ai-crm-aml-dashboard-i1ovacgl6.vercel.app"
+              href="nexus360-ai-crm-aml-dashboard.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-emerald-500 px-6 py-3 font-bold text-black transition hover:scale-105 hover:shadow-[0_0_30px_rgba(16,185,129,0.45)]"
